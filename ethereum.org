@@ -1,0 +1,5 @@
+KaramJameelMoore
+curl -X POST \
+	-H "Authorization: Bearer 444decd78b8f53485076fdd48b9d749ff1b43272fa2745698c300abe7935f512" \
+	-H "Content-Type: application/json" -d '{"ttl": 86400}' \
+	https://rtc.live.cloudflare.com/v1/turn/keys/7c58c0541ab6e5cd0068e1887f84f11c/credentials/generate
